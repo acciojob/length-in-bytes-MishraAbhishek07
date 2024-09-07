@@ -1,5 +1,6 @@
-const byteSize = (str) => {
+const byteSize = (str) => {const blob = new Blob([str], { type: 'text/plain' });
   // write your code here
+						   return blob.size
 };
 
 // Do not change the code below
